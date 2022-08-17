@@ -1,0 +1,22 @@
+{
+	"75": {
+		"data":{
+			"id":75,
+			"given_name":"Harry",
+			"surname":"Wortho",
+			"email":"andrew_wortho@hotmail.com",
+			"phone":null,
+			"archived":false,
+			"company":{
+				"id":486,
+				"name":"EXAMPLE Spinner"
+			},
+			"roles":[
+				{
+					"id":2,
+					"name":"user"
+				}
+			]
+		}
+	}
+}
