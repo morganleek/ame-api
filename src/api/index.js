@@ -4,6 +4,7 @@ import facets from './facets';
 
 import batches from './batches.json';
 import batchesSingle from './batches-single.json';
+import files from './files.json';
 import users from './users.json';
 
 export default ({ config, db }) => {
@@ -39,6 +40,16 @@ export default ({ config, db }) => {
 		else {
 			res.status(404).json( {} );
 		}
+	} );
+
+	api.get( '/files', ( req, res ) => {
+		// const key = req.params.batchId;
+		// if( batchesSingle[key] ) {
+		res.json( files );	
+		// }
+		// else {
+		// 	res.status(404).json( {} );
+		// }
 	} );
 
 	api.get( '/users/:userId', ( req, res ) => {

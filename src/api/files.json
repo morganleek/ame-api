@@ -1,0 +1,40 @@
+{
+	"count": 5,
+	"data": [
+		{
+			"id": 1,
+			"name": "TRACE",
+			"label": "Sample Download",
+			"url": "https://example.com/file.pdf",
+			"is_trace": true
+		},
+		{
+			"id": 2,
+			"name": "RWS",
+			"label": "Sample Download",
+			"url": "https://example.com/file.pdf",
+			"is_trace": false
+		},
+		{
+			"id": 3,
+			"name": "Sample",
+			"label": "Sample Download",
+			"url": "https://example.com/file.pdf",
+			"is_trace": false
+		},
+		{
+			"id": 4,
+			"name": "Sample",
+			"label": "Sample Download",
+			"url": "https://example.com/file.pdf",
+			"is_trace": false
+		},
+		{
+			"id": 5,
+			"name": "Sample",
+			"label": "Sample Download",
+			"url": "https://example.com/file.pdf",
+			"is_trace": false
+		}
+	]
+}
